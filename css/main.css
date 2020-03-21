@@ -34,7 +34,15 @@ a {
   text-decoration: none;
   color: #161737;
 }
+.flex1 {
+  margin-top: 30px;
+  display: flex;
+}
 
+.flex1 > div {
+  flex: 1;
+
+}
 .m div {
   display: none;
   padding: 10px;
